@@ -1,0 +1,105 @@
+body, html{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    font-family: '777Kidbutterfly';
+    font-size: 1.3rem;
+    position: relative;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.container {
+    margin-top: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    margin: 1rem 0rem;
+}
+.space{
+    margin-top: 7rem;
+}
+
+
+iframe{
+    display: block;
+    border: none;
+    height: 50%;
+    width:90%;
+}
+
+@font-face {
+    font-family: '777Kidbutterfly';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/777Kidbutterfly.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img{
+    height: 5rem;
+    width: auto;
+}
+
+.over{
+    width:17rem;
+    height: auto;
+}
+
+.charming{
+    margin: 5rem 0rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius:10rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    box-shadow: 0rem 0rem 1rem rgba(255, 0, 119, 0.212);
+}
+
+.charming img{
+    width: 7rem;
+    height: auto;
+}
+
+.pic{
+    width:fit-content;
+    height:fit-content;
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 20rem;
+}
+
+.polar{
+    width: 13rem;
+    height: auto;
+}
+
+.hyeon{
+    position: absolute;
+    width:9rem;
+    height: auto;
+    margin-bottom: 1.2rem;
+    margin-left: 0.2rem;
+    box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.171);
+}
+
+@media (max-width:375px){
+    iframe{
+        display: block;
+        border: none;
+        height: 10rem;
+        width: 100vw;
+    }
+}
